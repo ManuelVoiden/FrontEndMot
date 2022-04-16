@@ -5,6 +5,9 @@
     --very-light-pink: #C7C7C7;
     --text-input-field: #F7F7F7;
     --hospital-green: #ACD9B2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
 }
 
 body{
@@ -26,5 +29,42 @@ body{
     display: flex;
     flex-direction: column;
     width: 300px;
+    align-items: center;
+}
+
+.logo{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 45px;
+    display: none;
+}
+
+.title{
+    font-size: var(--lg);
+    font-weight: bold;
+    color: var(--black);
+    margin-bottom: 12px;
+}
+
+.subtitle{
+    font-size: var(--md);
+    color: var(--very-light-pink);
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+.label{
+    font-size: var(--sm);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.input{
+    background-color: var(--text-input-field);
+    border: none;
+    border-radius: 8px;
+    height:30px;
+    font-size: var(--md);
+    padding: 6px;
 }
 
