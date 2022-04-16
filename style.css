@@ -4,7 +4,8 @@
     --dark: #232830;
     --very-light-pink: #C7C7C7;
     --text-input-field: #F7F7F7;
-    --hospital-green: #ACD9B2;
+    --accent_light: #ACD9B2;
+    --accent_dark: #5E9F9F;
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
@@ -53,6 +54,12 @@ body{
     margin-bottom: 32px;
 }
 
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .label{
     font-size: var(--sm);
     font-weight: bold;
@@ -66,5 +73,24 @@ body{
     height:30px;
     font-size: var(--md);
     padding: 6px;
+    margin-bottom: 16px;
+}
+
+.primary-button{
+    background-color: var(--accent_light);
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 100%;
+    font-size: var(--md);
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.primary-button:hover{
+    background-color: var(--accent_dark);
+    border: 2px var(--very-light-pink) dotted;
+    transform: scale(1.015);
 }
 
