@@ -33,7 +33,7 @@
     font-size: var(--md);
     color: var(--very-light-pink);
     margin-top: 0px;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
 }
 
 .form{
@@ -104,6 +104,10 @@
     bottom: 10%;
 }
 
+.signup-button:hover{
+    transform: scale(1.015);
+}
+
 .button-text {
     background-color: var(----white);
     border: 1.5px solid var(--accent_light);
@@ -132,5 +136,11 @@
 @media (max-width: 640px) {
     .logo {
         display: block;
+    }
+}
+
+@media (min-width: 640px) {
+    .signup-button {
+        position: inherit;
     }
 }
