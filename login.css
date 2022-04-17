@@ -94,6 +94,41 @@
     text-decoration: underline;
 }
 
+.signup-button {
+    margin-top: 12px;
+    margin-bottom: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10%;
+}
+
+.button-text {
+    background-color: var(----white);
+    border: 1.5px solid var(--accent_light);
+    border-radius: 8px;
+    height: 56px;
+    width: 300px;
+    cursor: pointer;
+    font-size: var(--md);
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 56px;
+    color: var(--accent_light);
+}
+
+.primary-button:hover{
+    background-color: var(--accent_dark);
+    border: 2px var(--white) dotted;
+    transform: scale(1.015);
+}
+
+
 @media (max-width: 640px) {
     .logo {
         display: block;
