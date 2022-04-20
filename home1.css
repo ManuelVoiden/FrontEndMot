@@ -1,1 +1,13 @@
+.cards-container{
+    --card-size: 240px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, var(--card-size));
+}
 
+.product-card{
+    width:var(--card-size);
+}
+
+.product-card img {
+    width: var(--card-size);
+}
