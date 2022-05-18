@@ -17,7 +17,26 @@ else if (valor >= 67 && valor <= 100) {
 }
 console.log("La mano es " + mano);
 
-let mano_jugador = prompt("Ingrese su mano" );
 
-
+let mano_jugador = prompt("Ingrese su mano");
+if (mano_jugador == mano) {
+    console.log("Empate");
+    alert("Empate");
+}
+else if (mano_jugador == "Piedra" && mano == "Tijera") {
+    console.log("Ganaste");
+    alert("Ganaste");
+}
+else if (mano_jugador == "Papel" && mano == "Piedra") {
+    console.log("Ganaste");
+    alert("Ganaste");
+}
+else if (mano_jugador == "Tijera" && mano == "Papel") {
+    console.log("Ganaste");
+    alert("Ganaste");
+}
+else {
+    console.log("Perdiste");
+    alert("Perdiste");
+}   // end of else  */  // end of if         
 
