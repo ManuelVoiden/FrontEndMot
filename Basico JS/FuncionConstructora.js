@@ -22,7 +22,7 @@ for (let i = 0; i < numRegistros; i++) { //Para cada registro que se desea agreg
     let neighborhood = prompt("¿En qué barrio se encuentra la propiedad?: ");
     let aptoNuevo = new apto(rooms,bathrooms,garage,estrato,neighborhood);
     console.log(aptoNuevo); 
-    aptos.upshift(aptoNuevo);
+    aptos.push(aptoNuevo);
 }
 
 console.log(aptos); //Muestra todos los registros de la lista de aptos en consola. 
