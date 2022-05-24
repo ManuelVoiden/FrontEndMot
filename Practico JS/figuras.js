@@ -36,6 +36,7 @@ function calcularCirculo(){ //Calcula la area y perimetro de un circulo
     let radioCirculo = parseInt(prompt("Ingrese el radio del circulo: "));
     let areaCirculo = (pi * (radioCirculo * radioCirculo));
     let perimetroCirculo = (2 * pi * radioCirculo);
+    let diametroCirculo = (2 * radioCirculo);
     return [areaCirculo, perimetroCirculo];
 }
 
@@ -63,6 +64,8 @@ switch (tipoFigura) {  //Switch que elige según la figura la función a calcula
         valoresCirculo = calcularCirculo();
         console.log("El area del circulo es: " + valoresCirculo[0]);
         console.log("El perimetro del circulo es: " + valoresCirculo[1]);
+        console.log("El diametro del circulo es: " + valoresCirculo[2]);
         break;
     default:
 }
+
