@@ -12,8 +12,7 @@ function calcularTriangulo(){ //Calcula la area y perimetro de un triangulo
     let areaTriangulo = (baseTriangulo * alturaTriangulo) / 2;
     let ladoATriangulo = parseInt(prompt("Ingrese el lado A del triangulo: "));
     let ladoBTriangulo = parseInt(prompt("Ingrese el lado B del triangulo: "));
-    let ladoCTriangulo = parseInt(prompt("Ingrese el lado C del triangulo: "));
-    let perimetroTriangulo = ladoATriangulo + ladoBTriangulo + ladoCTriangulo;
+    let perimetroTriangulo = ladoATriangulo + ladoBTriangulo + baseTriangulo;
     return [areaTriangulo, perimetroTriangulo];
 }
 
@@ -37,7 +36,7 @@ function calcularCirculo(){ //Calcula la area y perimetro de un circulo
     let areaCirculo = (pi * (radioCirculo * radioCirculo));
     let perimetroCirculo = (2 * pi * radioCirculo);
     let diametroCirculo = (2 * radioCirculo);
-    return [areaCirculo, perimetroCirculo];
+    return [areaCirculo, perimetroCirculo, diametroCirculo];
 }
 
 console.log("Cálculo de figuras");
