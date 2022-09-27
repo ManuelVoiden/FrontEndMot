@@ -1,0 +1,24 @@
+{
+  "name": "platzi",
+  "version": "1.0.0",
+  "description": "DataStructures course on Platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuelVoiden/Platzi.js.git"
+  },
+  "keywords": [
+    "course",
+    "js",
+    "platzi"
+  ],
+  "author": "Juan Manuel Marin Bedoya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ManuelVoiden/Platzi.js/issues"
+  },
+  "homepage": "https://github.com/ManuelVoiden/Platzi.js#readme"
+}
