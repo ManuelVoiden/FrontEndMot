@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ManuelVoiden/Platzi.js/issues"
   },
-  "homepage": "https://github.com/ManuelVoiden/Platzi.js#readme"
+  "homepage": "https://github.com/ManuelVoiden/Platzi.js#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
